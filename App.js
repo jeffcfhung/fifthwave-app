@@ -1,5 +1,4 @@
 import React from 'react';
-import Viewport from './app/Viewport'
 
 import {
     View,
@@ -11,12 +10,12 @@ import {
     WebView
 } from 'react-native'
 
-GLOBAL = require('./app/lib/globals');
-import SteerController from './app/components/steer';
-import CameraController from './app/components/camera';
-import FaceRecController from './app/components/face';
+GLOBAL = require('./lib/globals');
+import SteerController from './components/steer';
+import CameraController from './components/camera';
+import FaceRecController from './components/face';
 
-let styles = require('./app/config/styles');
+let styles = require('./config/styles');
 
 
 export default class App extends React.Component {

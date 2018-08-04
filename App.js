@@ -10,7 +10,7 @@ import {
     WebView
 } from 'react-native'
 
-GLOBAL = require('./app/lib/globals');
+const GLOBAL = require('./app/lib/globals');
 import SteerController from './app/components/steer';
 import CameraController from './app/components/camera';
 import FaceRecController from './app/components/face';
